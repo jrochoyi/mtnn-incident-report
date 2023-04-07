@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&amp;display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainContainer {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bgContainer {
+  display: flex;
+  flex: 0.55;
+  height: 100vh;
+  background: url(../../assets/landingBG.png);
+  background-position: center left;
+  background-size: cover;
+}
+
+.textContainer {
+  display: flex;
+  flex: 0.5;
+  height: 100vh;
+  flex-direction: column;
+  padding: 3rem;
+  justify-content: center;
+
+}
+
+.logo {
+  display: flex;
+  /* max-height: 5rem; */
+  max-height: 10rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.logo img {
+  width: 100%;
+  /* max-width: 4rem; */
+  max-width: 10rem;
+  object-fit: contain;
+  height: 5rem;
+}
+
+.textContent {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.textContent h1 {
+  font-size: 3rem;
+  font-weight: 400;
+
+}
+
+.textContent h1 span {
+  color: #ffcc00;
+}
+
+.btnContainer {
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+  .bgContainer {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* .bgContainer {
+    flex: 0.45;
+  }
+  .textContainer {
+    flex: 0.55;
+  } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

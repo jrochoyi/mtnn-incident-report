@@ -1,0 +1,71 @@
+.inputLabel {
+    font-size: .7rem;
+    padding: .5rem;
+
+
+}
+
+.statusHeader {
+    color: #ffcc00;
+}
+
+.statusContainer {
+    padding: .5rem;
+    padding-top: 1.4rem;
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .statusContainer .dots {
+    width: 10px;
+    height: 10px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    margin-top: 10px;
+} */
+
+.statusContainer .pending {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.statusContainer .inProgress {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+
+}
+
+.statusContainer .resolved {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.statusLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.statusLabel p {
+    font-size: 11px;
+    padding-top: .4rem;
+    padding-bottom: 1.5rem;
+}
+
+.btn {
+    font-size: 12px;
+
+}
+
+.form {
+    justify-content: start;
+}

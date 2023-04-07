@@ -1,0 +1,47 @@
+.formContainer {
+    width: 70%;
+}
+
+.form {
+    padding: 2rem 6rem;
+}
+
+.form .title {
+    padding: 0rem 0rem 1rem 0rem;
+}
+.title h3{
+    font-weight: 400;
+}
+
+.title h3 em {
+    font-weight: bold;
+}
+
+.title p {
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.inputContainer{
+    padding-bottom: 0rem;
+    height: 3.6rem;
+}
+
+.inputContainer input {
+    font-size: 10px;
+    /* padding: 1.5rem; */
+    /* height: 1rem; */
+    margin-bottom: 0;
+}
+
+.inputContainer textarea {
+    width: 100%;
+    padding: 1rem;
+    height: 5rem;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    border-radius: 5px;
+}

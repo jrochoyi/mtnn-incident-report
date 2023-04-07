@@ -1,0 +1,120 @@
+.pageContents {
+    display: flex;
+    padding: 2.5rem 5rem 2rem 5rem;
+    background: whitesmoke;
+    height: calc(100vh - 5rem);
+    justify-content: center;
+
+}
+
+.formContainer {
+    display: flex;
+    width: 65%;
+    /* height: calc(100vh - 50%); */
+    background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.formBgContainer {
+    display: flex;
+    flex: 0.4;
+    background: url(../../assets/welcomeBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+
+}
+
+.form {
+    display: flex;
+    flex: 0.6;
+    /* height: 100vh; */
+    flex-direction: column;
+    padding: 2rem 4rem;
+    /* padding-left: 3rem; */
+    justify-content: center;
+    /* position: relative; */
+
+}
+
+.inputContainer {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    /* padding: .5rem; */
+}
+
+.inputContainer input{
+    width: 100%;
+    padding: 1rem;
+    padding-right: 2rem;
+    height: 2.6rem;
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    /* padding: .5rem; */
+}
+
+.dropdown select {
+    width: 100%;
+    /* padding: 1rem; */
+    padding-left: .5rem;
+    height: 2.6rem;
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.dropdown select option {
+    font-size: .8rem;
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    line-height: 5rem;
+    width: 100%;
+    border-radius: 12px;
+}
+.textAreaContainer {
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    /* padding: .5rem; */
+}
+
+.textAreaContainer textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 11px;
+    height: 8rem;
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+.backBTN {
+    display: flex;
+    max-height: 3rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.backBTN img {
+    position: absolute;
+    top: 9.5rem;
+    right: 58.5%;
+    max-width: 4rem;
+    height: 1.5rem;
+    object-fit: contain;
+    cursor: pointer;
+}

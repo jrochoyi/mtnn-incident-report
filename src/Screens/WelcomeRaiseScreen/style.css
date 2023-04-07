@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.form .title {
+    padding: 0rem 0rem 2rem 0rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    position: relative;
+}
+
+
+.emoji {
+    display: flex;
+    max-height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.emoji img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 4rem;
+    height: 3.5rem;
+    object-fit: contain;
+}
+
+.label {
+    display: flex;
+    width: 100%;
+}
+
+.label p {
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.inputContainer{
+    padding: 0rem 0rem 4.6rem 0rem;
+}
+
+.footerText p {
+    position: absolute;
+    width: inherit;
+    font-size: 12px;
+    bottom: 7.6%;
+    padding: 0rem 1.6rem;
+}
+
+.btnCancel {
+    display: flex;
+    max-height: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.btnCancel img {
+    position: absolute;
+    top: 9rem;
+    right: 20rem;
+    max-width: 4rem;
+    height: 1rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+

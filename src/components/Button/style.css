@@ -1,0 +1,32 @@
+.btn {
+    display: flex;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 2s ease-in-out;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .btnSize {
+    height: 2.5rem;
+  }
+  
+  .btn:hover{
+    transform: scale(1.05);
+  }
+  
+  .btnYellow {
+    background: #ffcc00;
+    color: #000;
+  }
+  
+  .btnYellowOutline {
+    background: white;
+    border: 1px solid #ffcc00;
+    color: #ffcc00;
+  }
